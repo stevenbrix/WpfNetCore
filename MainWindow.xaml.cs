@@ -24,5 +24,10 @@ namespace WpfNetCore
         {
             InitializeComponent();
         }
+
+        public void ClickToCrash(object sender, RoutedEventArgs e)
+        {
+            throw new System.Exception("Crashing on purpose just for fun");
+        }
     }
 }
