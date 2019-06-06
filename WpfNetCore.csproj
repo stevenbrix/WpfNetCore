@@ -4,5 +4,9 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <UseWPF>true</UseWPF>
+
+    <SelfContained>true</SelfContained>
+    <!-- x86 to save disk space -->
+    <RuntimeIdentifer>win-x86</RuntimeIdentifer>
   </PropertyGroup>
 </Project>
